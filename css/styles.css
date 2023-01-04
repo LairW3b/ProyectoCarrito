@@ -1,0 +1,216 @@
+/* Generales */
+h1 {
+  font-family: 'Rubik Dirt', cursive;
+}
+
+/* Header*/
+.content-header {
+  margin: 1rem;
+}
+
+.logo {
+  text-align: center;
+}
+
+@media (min-width:720px) {
+  .logo {
+    text-align: left;
+    padding: 0 4rem; 
+  }
+}
+
+/* Carrito */
+.carrito-btn {
+  border: none;
+  background-color: #fff;
+}
+
+.icon-carrito {
+  font-size: 2rem;
+  color: blueviolet;
+}
+
+.content-carrito {
+  display: none;
+  font-size: 1.2rem;
+}
+
+.showCarrito {
+  display: flex; 
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+  position: absolute;
+  background-color: #fff;
+  padding: .5rem;
+  margin-top: 4rem;
+}
+
+@media (min-width: 760px) {
+  .content-carrito {
+    margin-right: 6rem;
+  }
+}
+
+@media (min-width: 1050px) {
+  .content-carrito {
+    margin-right: 0;
+  }
+}
+
+thead {
+  border-bottom: 1px solid #c4c4c4;
+}
+
+th, td {
+  padding: 8px;
+  font-size: 1.2rem;
+}
+
+@media (min-width:768px) {
+  th, td {
+    font-size: 1rem;
+  }
+}
+
+.content-btn {
+  width: 100%;
+  display: flex;
+  justify-content: space-around; 
+  padding-top: 10px;
+  border-top: 1px solid #c4c4c4;
+}
+
+/* Banner */
+.banner {
+  background-image: url('../img/combat.jpg');
+  background-size: cover;
+  background-position: center;
+  background-repeat: no-repeat;
+  height: 200px;
+  color: #fff;
+}
+
+@media (min-width:720px) {
+  .banner {
+     height: 400px;
+     padding: 3rem;
+  }
+}
+
+.banner h2 {
+  font-size: 2.5rem;
+}
+
+.banner p {
+  font-size: 2rem;
+}
+
+@media (min-width: 720px) {
+  .banner div  {
+    display: flex;
+    justify-content: left;
+    margin-left: 3rem;
+  }
+  
+  .banner div h2 {
+    font-size: 4rem;
+    margin-top: 3rem;
+  }
+  .banner div p {
+    padding-top: 0rem;
+  }
+}
+
+.banner-icons {
+  margin: 0; 
+  padding: 1rem;
+  text-align: center;
+  color: #fff;
+  background: rgb(2, 0, 36);
+  background: linear-gradient(90deg, 
+    rgba(2, 0, 36, 1) 18%, 
+    rgba(9, 9, 121, 1) 51%, 
+    rgba(0, 212, 255, 1) 93%);
+}
+
+.banner-icons i {
+  font-size: 2rem;
+}
+
+@media (min-width: 768px) {
+  .banner-icons {  
+    display: grid;
+    grid-template-columns: repeat(3, 1fr);
+  }
+}
+
+/* Productos */
+.title-productos {
+  margin: 1rem;
+  font-family: 'Rubik Dirt', cursive;
+}
+
+.content-contacto {
+  background-color: rgb(13, 110, 253);
+  padding: 2rem;
+  color: #fff;
+}
+
+.content-contacto h3 {
+  font-size: 2rem;
+  font-family: 'Rubik Dirt', cursive;
+}
+
+.content-contacto p {
+  font-size: 1rem;
+}
+
+.btn-contacto{
+  width: 12rem;
+  height: 4rem;
+  border: 1px solid #fff;
+  border-radius: 40px;
+  background-color: rgb(13, 110, 253);
+  color: #fff;
+  font-size: 1.2rem;
+  font-weight: bold;
+}
+
+.btn-contacto i {
+  text-decoration: none;
+  color: #fff;
+}
+
+/* Footer */
+.footer {
+  background: rgb(2, 0, 36);
+  color: #fff;
+  padding: 3rem;
+}
+
+.img-logo {
+  width: 5rem;
+}
+
+.footer-text {
+  padding: 1rem;
+  font-size: 1.5rem;
+}
+
+.icon {
+  font-size: 3rem;
+}
+
+.icon a {
+  color: #fff;
+}
+
+.derechos-de-autor {
+  font-size: 1rem;
+  color: #c4c4c4;
+  font-weight: 100;
+}
+
+
+
