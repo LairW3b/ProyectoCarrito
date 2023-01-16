@@ -27,7 +27,7 @@ h1 {
 
 .icon-carrito {
   font-size: 2rem;
-  color: blueviolet;
+  color: rgb(9, 9, 121, 1);
 }
 
 .content-carrito {
@@ -44,6 +44,7 @@ h1 {
   background-color: #fff;
   padding: .5rem;
   margin-top: 4rem;
+  z-index: 5;
 }
 
 @media (min-width: 760px) {
@@ -64,13 +65,24 @@ thead {
 
 th, td {
   padding: 8px;
-  font-size: 1.2rem;
+  font-size: 1rem;
 }
 
 @media (min-width:768px) {
   th, td {
     font-size: 1rem;
   }
+}
+
+.closeProduct {
+  background-color: red;
+  color: #fff;
+  border: 1px solid #fff;
+  font-weight: bold;
+}
+
+.closeProduct:hover {
+  background-color: #c4c4c4;
 }
 
 .content-btn {
@@ -151,6 +163,11 @@ th, td {
   font-family: 'Rubik Dirt', cursive;
 }
 
+.card-img-top {
+  height: 20rem;
+}
+
+/* Contacto */
 .content-contacto {
   background-color: rgb(13, 110, 253);
   padding: 2rem;
